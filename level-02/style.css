@@ -1,0 +1,84 @@
+.button {
+  display:button;
+  background-color: #4CAF50;
+  border: none;
+  color:white;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 25px;
+  width:30%;
+  cursor: pointer;
+}
+body
+{
+background-image:url('bg.jpg');
+}
+
+* {
+  box-sizing: border-box;
+}
+a
+{
+color:white;
+}
+.button:hover {
+  background-color: green;
+}
+h1
+{
+font-size:40px;
+}
+div
+{
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+input[type=text] {
+  width:100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background:white;
+}
+input[type=text]:focus {
+  background-color:white;
+  outline: none;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+h
+{
+margin: 5px 0 22px 0;
+width:200%;
+padding:15px 20px;
+display: inline-block;
+  border: none;
+  background: #f1f1f1;
+outline:none
+}
+a
+{
+text-decoration: none;
+}
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
