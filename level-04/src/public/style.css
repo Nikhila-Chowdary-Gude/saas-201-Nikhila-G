@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 2rem;
+}
+
+section {
+  margin-top: 2rem;
+}
+
+#header-left h1 {
+  margin: 0;
+  font-size: 45px;
+}
+#header-left h3
+{
+  font-size: 35px;
+}
+
+p {
+  font-size: 14px;
+}
+
+header {
+  font-family: sans-serif;
+}
+
+h3 {
+  max-width: max-content;
+}
+
+h3 form {
+  float: right;
+  margin-left: 0.5rem;
+}
+
+input[type='submit'] {
+  cursor: pointer;
+}
+
+.btn-container {
+  margin-top: 0.5rem;
+}
+.todo-box
+{
+  padding-left: 10px;
+  font-size: 30px;
+}
+.btn
+{
+  padding-right: 10px;
+  font-size: 20px;
+}
+.btn-style
+{
+  border: 2px #2ecc71 solid;
+  padding: 5px 5px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: #2ecc71;
+  cursor: pointer;
+  color: #2f3640;
+  font-weight: bold;
+}
+.btn-style2
+{
+  border: 2px #eb4d4b solid;
+  padding: 5px 5px;
+  width: 100px;
+  border-radius: 5px;
+  background-color:#eb4d4b;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
